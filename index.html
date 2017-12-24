@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Fancy Scroll</title>
+        <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,6 +13,7 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css" />
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -21,7 +23,20 @@
         <!-- Add your site or application content here -->
         <main>
           <div id="page1">
-            <h1 id="h1-test">Testing</h1>
+            <h1>Scroll for More</h1>
+          </div>
+
+          <div id="page2">
+            <h1 id="chapt1">Chapter 1</h1>
+            <video playsinline autoplay muted loop poster="space.jpeg" id="bgvid1" class="animated slideInDown">
+            <source src="creek.webm" type="video/webm">
+            <source src="creek.mp4" type="video/mp4">
+              <!--[if lt IE 9]>
+                <script>
+                 document.createElement('video');
+                </script>
+              <![endif]-->
+            </video>
           </div>
         </main>
 

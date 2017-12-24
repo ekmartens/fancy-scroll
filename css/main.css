@@ -96,18 +96,85 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+
 main {
   height: 1500px;
 }
 
+h1 {
+  animation: type 2s steps(60, end);
+  font-family: 'Great Vibes', cursive;
+  font-size: 3em;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+
+h1:nth-child(2){
+  animation: type2 5s steps(60, end);
+}
+
+@keyframes type {
+  from { width: 0; }
+}
+
+@keyframes type2 {
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; }
+}
+
 #page1 {
+  background: #ffd9b3;
+  height: 1200px;
+}
+
+#page1 h1 {
+  color: #fff;
+  margin-left: 33%;
+  margin-top: 20%;
+  position: fixed;
+  text-shadow: 1px 1px #000;
+  width: 36%;
+}
+
+#page2 {
+  display: none;
+  height: 1200px;
   position: fixed;
 }
 
-#h1-test{
+#page2 h1{
+  color: #fff;
   display: none;
+  margin-left: 40%;
+  margin-top: 20%;
+  position:fixed;
+  text-shadow: 1px 1px #000;
+  width:20%;
+  z-index: 1;
 }
 
+/** Video **/
+
+video #bgvid1 {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(space.jpg) no-repeat;
+    background-size: cover;
+}
 
 
 
