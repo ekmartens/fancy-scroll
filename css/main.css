@@ -115,7 +115,6 @@ h1 {
 }
 
 h2 {
-  color: #fff;
   font-family: 'Great Vibes', cursive;
   font-size: 3em;
   text-shadow: 1px 1px #000;
@@ -182,14 +181,28 @@ h1:nth-child(2){
 /** PAGE 2 **/
 
 #page2 {
-  background: black;
+  background-color: #000;
+  background-image: url('pizza.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
   display: none;
   height: 1200px;
   position: fixed;
   width: 100%;
 }
 
-#page2 ul {
+#pageTitle2 {
+  color: #fff;
+  display: none;
+  margin-left: 32%;
+  padding-left: 2%;
+  text-align: left;
+  text-shadow: 1px 1px #000;
+  width: 80%;
+}
+
+#listP2 {
+  display: none;
   list-style: none;
 }
 
@@ -201,8 +214,12 @@ h1:nth-child(2){
   width: 33%;
 }
 
-#titlePage2 svg {
-  padding-right: 3%;
+#pointerP2 {
+  display: none;
+}
+
+#pointerP2 svg {
+  padding-left: 42%;
 }
 
 #nav-menu {
@@ -229,7 +246,9 @@ h1:nth-child(2){
     margin: 60px 0 10px 310px;
 }
 
-
+#nav-menu {
+  display: none;
+}
 
 #menu-btn {
   color: #fff;
