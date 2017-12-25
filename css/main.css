@@ -110,10 +110,23 @@ h1 {
   white-space: nowrap;
 }
 
-h2 {
+h3, p {
   color: #fff;
+  font-family: 'Poiret One', cursive;
   text-align: center;
   text-shadow: 1px 1px #000;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1.15em;
+}
+
+svg {
+  margin-right: 1%;
 }
 
 
@@ -139,7 +152,7 @@ h1:nth-child(2){
 #page1 h1 {
   color: #fff;
   margin: 0;
-  padding-left: 45.5%;
+  padding-left: 44%;
   padding-top: 15%;
   text-shadow: 1px 1px #000;
   width: 40%;
@@ -147,6 +160,10 @@ h1:nth-child(2){
 
 #p1Subtitle {
   display: none;
+}
+
+#ctaP1 {
+  display:none;
 }
 
 #page2 {
