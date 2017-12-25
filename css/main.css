@@ -110,6 +110,12 @@ h1 {
   white-space: nowrap;
 }
 
+h2 {
+  color: #fff;
+  text-align: center;
+  text-shadow: 1px 1px #000;
+}
+
 
 h1:nth-child(2){
   animation: type2 5s steps(60, end);
@@ -132,11 +138,15 @@ h1:nth-child(2){
 
 #page1 h1 {
   color: #fff;
-  margin-left: 33%;
-  margin-top: 20%;
-  position: fixed;
+  margin: 0;
+  padding-left: 45.5%;
+  padding-top: 15%;
   text-shadow: 1px 1px #000;
-  width: 36%;
+  width: 40%;
+}
+
+#p1Subtitle {
+  display: none;
 }
 
 #page2 {
