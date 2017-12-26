@@ -257,10 +257,16 @@ h1:nth-child(2){
 
 #menu-btn-2nd, #story-btn-2nd {
   display: none;
+  position: fixed;
+  z-index: -1
 }
 
 #our-story-btn {
   margin-top: -.2%;
+}
+
+#nav-story h3:hover {
+  color: red;
 }
 
 @media all and (min-width: 1200px){
