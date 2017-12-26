@@ -35,7 +35,7 @@ function closeP1(){
 function openP1(){
   entrance(titlePage);
   entrance(subTitle1);
-  subTitles(cta1,2500);
+  subTitles(cta1,2000);
 }
 
 function closeP2(){
